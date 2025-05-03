@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const StopWatch2 = () => {
+const StopWatch = () => {
   // All hooks :---
   const [resetClick, setResetClick] = useState(false); // Used to trigger reset via dependency array
   const [isRunning, setIsRunning] = useState(false); // Start/stop toggle
@@ -75,4 +75,4 @@ const StopWatch2 = () => {
   );
 };
 
-export default StopWatch2;
+export default StopWatch;
