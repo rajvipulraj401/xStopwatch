@@ -1,11 +1,11 @@
 
 import React from "react";
-import Stopwatch2 from "./Stopwatc2h";
+import Stopwatch from "./Stopwatch";
 
 const App = () => {
   return (
 
-    <Stopwatch2></Stopwatch2>
+    <Stopwatch></Stopwatch>
   );
 };
 
